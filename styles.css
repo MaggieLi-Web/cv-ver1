@@ -1,0 +1,289 @@
+/* Global Section */
+body {
+  margin: 0;
+}
+
+#title {
+  margin: 0 auto 0 auto;
+  padding: 80px 0 30px 0;
+  font-size: 38px;
+  font-family: 'Anton', sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+/* Menu Section */
+.menu-top {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  height: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  text-decoration: overline;
+  text-shadow: 0 3px 3px orange;
+  z-index: 1000px;
+}
+
+.menu-education {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 100px;
+  height: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu-intern {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 180px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu-student {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 280px;
+  height: 70px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu-skills {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 420px;
+  height: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu-project {
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 500px;
+  height: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu p {
+  background-color: #e4ccb3;
+  margin: auto;
+  padding: 20px 10px 25px 10px;
+  border: outset 2.5px #e4ccb3;
+  width: 120px;
+  font-family: monospace;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:visited {
+  color: white;
+}
+
+.menu p:hover {
+  box-shadow: 5px 5px 5px #b9a795;
+  font-size: 16px;
+}
+
+/* Top section */
+.top {
+  background-color: #f9f7e8;
+  height: auto;
+  padding-bottom: 200px;
+}
+
+.top hr {
+  width: 25%;
+  color: lightgrey;
+  border-style: none;
+  border-top: 5px double;
+  margin: 1.5px auto 1.5px auto;
+}
+
+#main-title {
+  margin: 0 auto 0 auto;
+  padding: 150px 0 15px 0;
+  color: #61bfad;
+  font-size: 80px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#email {
+  color: #61bfad;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#email:hover {
+  text-shadow: 2px 2px 2px silver;
+}
+
+/* Education Section */
+.education {
+  background-color: #61bfad;
+  color: white;
+  height: auto;
+  padding-bottom: 130px;
+}
+
+.school {
+  width: 500px;
+  margin: auto;
+}
+
+.school-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.major {
+  font-size: 18px;
+}
+
+.emphasis {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.place {
+  width: 300px;
+  margin: auto;
+}
+
+.location {
+  font-size: 15px;
+  float: left;
+}
+
+.time {
+  float: right;
+  font-size: 15px;
+}
+
+/* Intern Section */
+.intern {
+  background-color: #efe8d8;
+  height: auto;
+  padding-bottom: 130px;
+  color: #3b9a9c;
+}
+
+.intern ul {
+  width: 400px;
+  text-align: left;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.job-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.company {
+  width: 320px;
+  margin: auto;
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+.company-name {
+  float: left;
+}
+
+.time {
+  font-size: 13px;
+  float: right;
+}
+
+/* Student Organization Section */
+.student {
+  background-color: #61bfad;
+  color: white;
+  padding-bottom: 130px;
+}
+
+.student hr {
+  color: white;
+  width: 50%
+}
+
+.volunteer {
+  width: 600px;
+  margin: auto;
+}
+
+.student ul {
+  text-align: left;
+  line-height: 1.5;
+  width: 550px;
+}
+
+.volunteer-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.organization {
+  margin: auto;
+  font-style: italic;
+}
+
+.date {
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* Skills Section */
+.skills {
+  background-color: #efe8d8;
+  color: #3b9a9c;
+  padding-bottom: 160px;
+}
+
+.rank-skills {
+  width: 700px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+.skills td {
+  padding: 5px 40px 5px 40px;
+}
+
+.software {
+  text-align: left;
+}
+
+.checked {
+  color: orange;
+  font-size: 17px;
+}
+
+/* Project Section */
+.project {
+  background-color: #61bfad;
+  color: white;
+  padding-bottom: 150px;
+}
